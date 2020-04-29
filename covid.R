@@ -11,9 +11,9 @@ source('read.data.R')
 options(scipen=999)
 
 # Stats files
-deathsFile = '/Users/heldergeraldoribeiro/Downloads/covid/time_series_covid19_deaths_global.csv'
-confirmedFile = '/Users/heldergeraldoribeiro/Downloads/covid/time_series_covid19_confirmed_global.csv'
-recoveredFile = '/Users/heldergeraldoribeiro/Downloads/covid/time_series_covid19_recovered_global.csv'
+deathsFile = './time_series_covid19_deaths_global.csv'
+confirmedFile = './time_series_covid19_confirmed_global.csv'
+recoveredFile = './time_series_covid19_recovered_global.csv'
 
 file = deathsFile
 stats = 'Deaths'
